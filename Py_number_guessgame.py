@@ -16,7 +16,7 @@ guesses = 0
 is_running = True
 
 print("python number guessing game!!")
-print(f"Please Selcet a umber between {lowest_num} and {highest_num}")
+print(f"Please Selcet a number between {lowest_num} and {highest_num}")
 
 while is_running:
 
@@ -38,3 +38,4 @@ while is_running:
              is_running = False
     else:
         print("Invalid guess")
+
